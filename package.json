@@ -15,7 +15,7 @@
     "@grpc/proto-loader": "^0.7.2",
     "dotenv": "^16.0.2",
     "enf-eosjs": "^23.0.0-rc4",
-    "lmdb": "^2.6.0-alpha7",
+    "lmdb": "^2.7.3",
     "protobufjs": "^6.10.2"
   },
   "devDependencies": {
@@ -24,6 +24,7 @@
   "pkg": {
     "assets": [
       "node_modules/lmdb",
+      "node_modules/@lmdb",
       "proto/**/*.proto"
     ]
   }
